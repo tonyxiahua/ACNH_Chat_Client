@@ -166,8 +166,8 @@ def login_switch_web(id_token, nintendo_profile):
         }
     }, headers={
         "Content-Type": "application/json; charset=utf-8",
-        "User-Agent": "com.nintendo.znca/1.9.0 (Android/7.1.2)",
-        "X-ProductVersion": "1.9.0",
+        "User-Agent": "com.nintendo.znca/1.11.0 (Android/7.1.2)",
+        "X-ProductVersion": "1.11.0", # Change here to get version update (Common Error)
         "X-Platform": "Android"
     })
 
@@ -245,7 +245,7 @@ def login_acnh(game_token, user_id):
 
 def get_acnh_island(acnh_token, island_id):
     # Gets information about an ACNH island by ID, will only accept *your own* island (based on who owns the auth token), 403s otherwise
-    resp = rsess.get("https://web.sd.lp1.acbaa.srv.nintendo.net/api/sd/v1/lands/{}/profile?language=ja-JP".format(island_id), headers={
+    resp = rsess.get("https://web.sd.lp1.acbaa.srv.nintendo.net/api/sd/v1/lands/{}/profile?language=zh-CN".format(island_id), headers={
         "User-Agent": browser_agent,
         "Authorization": "Bearer {}".format(acnh_token)
     })
@@ -258,7 +258,7 @@ def get_acnh_island(acnh_token, island_id):
 
 def get_acnh_profile(acnh_token, user_id):
     # Gets information about an ACNH user profile by ID, will only accept your own user OR your best friends' users (based on who owns the auth token), 403s otherwise
-    resp = rsess.get("https://web.sd.lp1.acbaa.srv.nintendo.net/api/sd/v1/users/{}/profile?language=ja-JP".format(user_id), headers={
+    resp = rsess.get("https://web.sd.lp1.acbaa.srv.nintendo.net/api/sd/v1/users/{}/profile?language=zh-CN".format(user_id), headers={
         "User-Agent": browser_agent,
         "Authorization": "Bearer {}".format(acnh_token)
     })
