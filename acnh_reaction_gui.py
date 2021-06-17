@@ -18,21 +18,21 @@ def send(reaction):
 def button_click():
     if v.get() == 'やぁ！':
         send("Greeting")
-    elif v.get() == 'うんうん':
+    elif v.get() == '打招呼':
         send("Nodding")
-    elif v.get() == 'イヤイヤ':
+    elif v.get() == '点头':
         send("Negative")
-    elif v.get() == 'ねっ':
+    elif v.get() == '不是':
         send("Hello")
-    elif v.get() == 'ニコニコ':
+    elif v.get() == '你好':
         send("Smiling")
-    elif v.get() == 'ハッピー':
+    elif v.get() == '微笑':
         send("HappyFlower")
-    elif v.get() == 'ウキウキ':
+    elif v.get() == '开心':
         send("HappyDance")
-    elif v.get() == 'わらう':
+    elif v.get() == '跳舞':
         send("Laughing")
-    elif v.get() == 'まかせて！':
+    elif v.get() == '大笑':
         send("Assent")
     elif v.get() == 'シャキーン':
         send("Shaki")
