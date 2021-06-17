@@ -18,21 +18,21 @@ def send(reaction):
 def button_click():
     if v.get() == 'やぁ！':
         send("Greeting")
-    elif v.get() == '打招呼':
+    elif v.get() == 'うんうん':
         send("Nodding")
-    elif v.get() == '点头':
+    elif v.get() == 'イヤイヤ':
         send("Negative")
-    elif v.get() == '不是':
+    elif v.get() == 'ねっ':
         send("Hello")
-    elif v.get() == '你好':
+    elif v.get() == 'ニコニコ':
         send("Smiling")
-    elif v.get() == '微笑':
+    elif v.get() == 'ハッピー':
         send("HappyFlower")
-    elif v.get() == '开心':
+    elif v.get() == 'ウキウキ':
         send("HappyDance")
-    elif v.get() == '跳舞':
+    elif v.get() == 'わらう':
         send("Laughing")
-    elif v.get() == '大笑':
+    elif v.get() == 'まかせて！':
         send("Assent")
     elif v.get() == 'シャキーン':
         send("Shaki")
@@ -121,3 +121,87 @@ button = tkinter.Button(text="送信",command=button_click)
 button.place(x=285, y=50, width=200)
 
 root.mainloop()
+
+
+'''
+
+def button_click():
+    if v.get() == '打招呼':
+        send("Greeting")
+    elif v.get() == '点头':
+        send("Nodding")
+    elif v.get() == '不是':
+        send("Negative")
+    elif v.get() == '你好':
+        send("Hello")
+    elif v.get() == '微笑':
+        send("Smiling")
+    elif v.get() == '开心':
+        send("HappyFlower")
+    elif v.get() == '开心跳舞':
+        send("HappyDance")
+    elif v.get() == '大笑':
+        send("Laughing")
+    elif v.get() == '同意':
+        send("Assent")
+    elif v.get() == '怀疑':
+        send("Shaki")
+    elif v.get() == '跳舞':
+        send("Dance")
+    elif v.get() == '庆祝':
+        send("Cheering")
+    elif v.get() == '拍掌':
+        send("Clapping")
+    elif v.get() == '抱歉':
+        send("Apologize")
+    elif v.get() == '再说一次':
+        send("Pardon")
+    elif v.get() == '问号':
+        send("QuestionMark")
+    elif v.get() == '感叹号':
+        send("Aha")
+    elif v.get() == '震惊':
+        send("Shocked")
+    elif v.get() == '惊讶':
+        send("Surprised")
+    elif v.get() == '哦靠':
+        send("Oops")
+    elif v.get() == '脸红':
+        send("Blushing")
+    elif v.get() == '犹豫':
+        send("Hesitate")
+    elif v.get() == '苦笑':
+        send("WrySmile")
+    elif v.get() == '奸笑':
+        send("Grin")
+    elif v.get() == '我的天':
+        send("OhGeez")
+    elif v.get() == '思考':
+        send("Thinking")
+    elif v.get() == '打瞌睡':
+        send("Sleepy")
+    elif v.get() == '睡觉':
+        send("Sleep")
+    elif v.get() == '担心':
+        send("Worried")
+    elif v.get() == '叹气':
+        send("Sighing")
+    elif v.get() == '悲伤':
+        send("SadSpiral")
+    elif v.get() == '伤心':
+        send("BrokenHeart")
+    elif v.get() == '哭泣':
+        send("Crying")
+    elif v.get() == '安静':
+        send("Silent")
+    elif v.get() == '愤怒':
+        send("Outraged")
+    elif v.get() == '冷颤':
+        send("ColdChill")
+    elif v.get() == '发疯':
+        send("Frantic")
+    elif v.get() == '抖动':
+        send("Shaking")
+    elif v.get() == '喷嚏':
+        send("Sneezing")
+'''
