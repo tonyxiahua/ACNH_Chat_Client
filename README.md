@@ -1,4 +1,5 @@
-# 动森说话机（原本ACNH_Chat_Client）
+# 动森说话机（原ACNH_Chat_Client）
+
 ## 介绍
 这是一个Fork之后被我魔改的项目
 通过Nintendo Switch Online 进行聊天的简化版，再也不用拿着手机和人对话了，也可以用机器自动发送一些消息
@@ -9,12 +10,10 @@ Update History:
 2021-6-17 First Commit 改变语言为中文的选项。并且修正了不能连接的版本号码。
 
 Special thanks for collecting this all together
-
-## 改変について
-[acnh_chat_gui.py](acnh_chat_gui.py)はMIT Licenseです。自由に改変して使っていただいて構いません。
-私自身、GUIの見た目やプログラムの改善点など沢山あると思っているのでプルリク大歓迎です。
-[acnh_info_edited.py](acnh_info_edited.py)はxSke氏が書いた物が元なので何とも言えません...
-もし、このプログラムが消えてたら察してください😇
+## TO-DO
+1. Change the acnh_info_edited.py (rewrite and adapt to new form)
+2. GUI and React needs to adapt to new from. Either using flask or use Qtpython for GUI uses.
+3. Mobile platfrom support...
 
 ## 使用说明
 1. 安装所需程序包 运行 
@@ -38,3 +37,9 @@ python acnh_info_edited.py
 [ mizuyoukanao/ACNH_Chat_Client](https://github.com/mizuyoukanao/ACNH_Chat_Client)
 [dqn's blog](https://dqnn.hatenablog.com/entry/2020/05/02/005843)、およびに[githubリポジトリ](https://github.com/dqn/acnh)、
 [こちらのissuesも参考になりました。](https://github.com/ZekeSnider/NintendoSwitchRESTAPI/issues/13)改めて感謝します!
+
+## 改変について
+[acnh_chat_gui.py](acnh_chat_gui.py)はMIT Licenseです。自由に改変して使っていただいて構いません。
+私自身、GUIの見た目やプログラムの改善点など沢山あると思っているのでプルリク大歓迎です。
+[acnh_info_edited.py](acnh_info_edited.py)はxSke氏が書いた物が元なので何とも言えません...
+もし、このプログラムが消えてたら察してください😇
