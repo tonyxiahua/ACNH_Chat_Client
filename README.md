@@ -1,4 +1,10 @@
-# ACNH_Chat_Clientとは
+# 动森说话机（原本ACNH_Chat_Client）
+
+这是一个Fork之后被我魔改的项目
+通过Nintendo Switch Online 进行聊天的简化版，再也不用拿着傻手机和人对话了
+2021-6-17 First Commit 加入了中文的选项。并且修正了不能连接的版本号码。
+
+
 
 ![GUI見本](https://cdn.discordapp.com/attachments/593485514301243413/743777242261225472/gui_preview.png)
 
